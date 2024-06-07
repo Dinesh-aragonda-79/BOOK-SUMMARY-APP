@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Summaries</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>BookFinder</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="custom.html">Custom Summaries</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="add-summary-form-section">
+            <form id="add-summary-form">
+                <h2>Add a Custom Summary</h2>
+                <input type="text" id="book-name" placeholder="Book Title" required>
+                <input type="text" id="book-author" placeholder="Book Author" required>
+                <textarea id="book-summary" placeholder="Book Summary" required></textarea>
+                <button type="submit">Add Summary</button>
+            </form>
+        </section>
+        <section>
+            <h2>Saved Custom Summaries</h2>
+            <div id="manual-saved-books-list"></div>
+        </section>
+    </main>
+    <footer>
+        <p>BookFinder &copy; 2024</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

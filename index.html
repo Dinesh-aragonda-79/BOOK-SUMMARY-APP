@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Search</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>BookFinder</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="custom.html">Custom Summaries</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="search-section">
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Search for books...">
+                <button id="search-button">Search</button>
+                <button id="close-search">Close Search</button>
+            </div>
+        </section>
+        <section id="book-list"></section>
+        <section>
+            <h2>Saved Books</h2>
+            <div id="saved-books-list"></div>
+        </section>
+    </main>
+    <footer>
+        <p>BookFinder &copy; 2024</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
